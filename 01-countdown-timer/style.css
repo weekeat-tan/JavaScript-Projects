@@ -7,4 +7,55 @@
 body {
   font-family: "Poppins", "sans-serif";
   margin: 0;
+  background-image: url(./snow.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-weight: normal;
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+  font-size: 4rem;
+}
+
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+  margin-top: 3rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.25rem;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; /* Remove default arrow */
+  padding: 0.75rem 2.5rem;
+  border-width: 0.15rem;
+  border-color: #1a374d;
+  border-radius: 0.5rem;
+  background-color: #6998ab;
+  color: whitesmoke;
+  font-family: "Poppins", "sans-serif";
+  font-weight: bold;
+  font-size: 1.25rem;
 }
