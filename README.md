@@ -1,9 +1,10 @@
 # 10 Vanilla JavaScript Projects
 
-## 1. Countdown Timer
+## 1. New Year Countdown Timer
+- New year countdown timer with options from next year, up to 100 years later.
+- Select future year
+- Timer
 - Design: https://uidesigndaily.com/posts/sketch-countdown-timer-day-876
-- future date
-- timer
 
 ## 2. Quiz App
 - Design: https://uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-924
