@@ -1,13 +1,25 @@
 const yearSelectEl = document.querySelector("#year-select");
+appendYearOptions();
 
 const daysEl = document.querySelector("#days");
 const hoursEl = document.querySelector("#hours");
 const minsEl = document.querySelector("#mins");
 const secondsEl = document.querySelector("#seconds");
 
+function appendYearOptions() {
+  const currentDate = new Date();
+
+  for (let i = 1; i <= 100; i++) {
+    const year = currentDate.getFullYear() + i;
+    const newYearOption = document.createElement("option");
+    newYearOption.innerText = `${year}`;
+    newYearOption.value = `${year}`;
+    yearSelectEl.append(newYearOption);
+  }
+}
+
 function countdown() {
   const newYears = `1 Jan ${yearSelectEl.value}`;
-
   const newYearsDate = new Date(newYears);
   const currentDate = new Date();
 
